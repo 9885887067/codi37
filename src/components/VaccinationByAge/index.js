@@ -8,12 +8,11 @@ const VaccinationByAge = props => {
   return (
     <div className="vaccination-age">
       <h1 className="gender">Vaccination by age</h1>
-      <PieChart width={900} height={300}>
+      <PieChart width={1000} height={300}>
         <Pie
           data={vaccinationByAgeDetails}
           cx="70%"
           cy="40%"
-          
           dataKey="count"
           innerRadius="40%"
           outerRadius="70%"
